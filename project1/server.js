@@ -12,4 +12,4 @@ app.get('/hayden', (req,res) => {
     res.send("Welcome to Hayden's Site!")
 })
 
-app.listen(PORT, () => console.log(`Server has started on: ${PORT}`))
+app.listen(PORT, '0.0.0.0' ,() => console.log(`Server has started on: ${PORT}`))
